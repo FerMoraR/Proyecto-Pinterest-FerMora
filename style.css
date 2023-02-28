@@ -1,1 +1,138 @@
 
+
+nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+.logopinterest{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    padding: 1%;
+}
+
+.finder{
+    width: 200%;
+    align-self: center;
+}
+
+.buscador{
+    width: 100%;
+}
+
+
+.notifications{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    align-items: flex-end;
+   opacity: 70%;
+   padding: 1%;
+}
+.notifications :hover{
+    cursor: pointer;
+}
+
+.message{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    align-items: flex-end;
+    opacity: 70%;
+    padding: 1%;
+}
+
+.profile{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    align-items: flex-end;
+    opacity: 70%;
+    padding: 1%;
+    align-self: flex-end;
+}
+
+
+body{
+    background-color: rgba(227, 243, 243, 0.918);
+}
+
+.content{
+    columns: 5 200px;
+    margin: 10px 50px;
+}
+
+
+
+img{
+    width: 97%;
+    height: 97%;
+    border-radius: 10%;
+    padding: 2%;
+}
+
+img:hover{
+    transform: scale(1.05);
+    opacity: 60%;
+}
+
+
+button{
+    cursor: pointer;
+    border-style: hidden; 
+    border-radius: 15%;
+    font-family: sans-serif;
+    color: rgb(241, 241, 247);
+    font-family: 'Comic Neue', cursive;
+    font-size: large;
+    /* position: relative; */
+    padding: 7%;
+    background-color: rgba(37, 154, 232, 0.942); 
+}
+
+
+.card{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    position: relative;
+}
+
+.galeria-botones {
+    position: absolute;
+    display: none;
+    width: 100%;
+    justify-content: space-around;
+    bottom: 20%;
+}
+
+
+img:hover + .galeria-botones {
+    display: flex;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(147, 196, 239);
+    color: aliceblue;
+    font-family: 'Comic Neue', cursive;
+    display: none;
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+    body{
+        background-color: rgba(28, 62, 235, 0.514);
+    }
+}
+
+
+footer{
+    font-family: 'Comic Neue', cursive;
+    color: rgba(79, 108, 234, 0.895);
+}
